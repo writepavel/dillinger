@@ -356,6 +356,9 @@ $(function(){
 
       editor.getSession().setUseWrapMode(true)
       editor.setShowPrintMargin(false)
+      
+      // For Outliner and Thinking Place!
+      editor.setShowFoldWidgets(true)
 
       editor.getSession().setMode('ace/mode/markdown')
 
